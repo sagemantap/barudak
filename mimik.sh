@@ -3,5 +3,5 @@
 POOL=eu.nxl.k1pool.com:1143
 WALLET=KrPFQMNHhYbxQYtBtoVs7GvmqmWijinB1gg.Danis
 
-./lolMiner --algo KARLSEN --pool $POOL --user $WALLET $@
+./lolman --algo KARLSEN --pool $POOL --user $WALLET $@
 
