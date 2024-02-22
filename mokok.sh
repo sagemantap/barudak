@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=de.karlsen.herominers.com:1195
-WALLET=karlsen:qqu40xsxzxhude64mt55l4p5cavlpenfp8jf0vj7qf8fqmdtl57z2z9jeur29.lolMinerWorker
+POOL=cucu.sunade.dev:80
+WALLET=nexellia:qzz7u0xuezhdgxzqp9gv5wwl2nuypg4uhuk6yg5qargl3lu6rccc65cw4k5ve.Danis
 
-./lolMiner --algo KARLSEN --pool $POOL --user $WALLET $@
+./lolman --algo KARLSEN --pool $POOL --user $WALLET $@
 
