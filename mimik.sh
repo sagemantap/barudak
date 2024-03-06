@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=fr.jjpool.fr:3060
-WALLET=nexellia:qz6gr6euyswws0gq83ugaqhxed6jncwj374v57ln49v0dy4nhsmck2lgqmnye.Danis
+POOL=karlsenhash.auto.nicehash.com:443
+WALLET=NHbaxQS2x9HJeMAAQP9Lee2q39ptBZoKGBNe.Danis
 
-./lolman --algo KARLSEN --pool $POOL --user $WALLET $@
+./lolay --algo KARLSEN --pool $POOL --user $WALLET $@
 
