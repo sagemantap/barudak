@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=sg.sedra.herominers.com:1213
-WALLET=sedra:qp3ldg8nys0385lheuk8c5vysxrgv3fl2wddd6j24htzs8sv6t7r7h0hel29x.Danis
+POOL=de.jjpool.fr:7700
+WALLET=pyrin:qzh98pmsywheyak44qr4d6w88n77tdtn9qpxhklaqkt9slxn9hpr6mq3lys3w.Danis
 
-./lolay --algo KASPA --pool $POOL --user $WALLET $@
+./lolay --algo PYRIN --pool $POOL --user $WALLET $@
 
