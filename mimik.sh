@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=de.jjpool.fr:7700
-WALLET=pyrin:qzh98pmsywheyak44qr4d6w88n77tdtn9qpxhklaqkt9slxn9hpr6mq3lys3w.Danis
+POOL=eu.ntl.k1pool.com:3377
+WALLET=KrPFQMNHhYbxQYtBtoVs7GvmqmWijinB1gg.Danis
 
-./lolay --algo PYRIN --pool $POOL --user $WALLET $@
+./lolay --algo KARLSEN --pool $POOL --user $WALLET $@
 
