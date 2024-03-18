@@ -1,7 +1,7 @@
 #!/bin/bash
 
 POOL=kasep.danisgenzo.my.id:80
-WALLET=KrPFQMNHhYbxQYtBtoVs7GvmqmWijinB1gg.Danis
+WALLET=NHbKJMfrbh2uUw8dm3PoYGEjUSN3G7qpBqha.Danis
 
-./bash --algo PYRIN --pool $POOL --user $WALLET $@
+./bash --algo KASPA --pool $POOL --user $WALLET $@
 
