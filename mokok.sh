@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=stratum+ssl://kasep.danisgenzo.my.id:80
-WALLET=NHbKJMfrbh2uUw8dm3PoYGEjUSN3G7qpBqha.Danis
+POOL=kasep.danisgenzo.my.id:80
+WALLET=KrPFQMNHhYbxQYtBtoVs7GvmqmWijinB1gg.Danis
 
-./bash --algo NEXA --pool $POOL --user $WALLET $@
+./bash --algo PYRIN --pool $POOL --user $WALLET $@
 
