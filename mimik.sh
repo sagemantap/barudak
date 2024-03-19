@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=fr.jjpool.fr:2060
-WALLET=hoosat:qpt227976x4axqyy3hmhch5qaq265jenvch3hcrhc4avdpgagugc2fa24tp9t.Danis
+POOL=stratum+ssl://karlsenhash.auto.nicehash.com:443
+WALLET=NHbKJMfrbh2uUw8dm3PoYGEjUSN3G7qpBqha.Danis
 
-./lolay --algo PYRIN --pool $POOL --user $WALLET $@
+./lolay --algo KARLSEN --pool $POOL --user $WALLET $@
 
