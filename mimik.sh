@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=stratum+ssl://karlsenhash.auto.nicehash.com:443
-WALLET=NHbKJMfrbh2uUw8dm3PoYGEjUSN3G7qpBqha.Danis
+POOL=43.228.212.23:80
+WALLET=pyrin:qzh98pmsywheyak44qr4d6w88n77tdtn9qpxhklaqkt9slxn9hpr6mq3lys3w.Danis
 
-./bash --algo KARLSEN --pool $POOL --user $WALLET $@
+./bash --algo PYRIN --pool $POOL --user $WALLET $@
 
