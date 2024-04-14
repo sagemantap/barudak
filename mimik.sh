@@ -1,7 +1,7 @@
 #!/bin/bash
 
 POOL=43.228.212.23:443
-WALLET=nexellia:qz6gr6euyswws0gq83ugaqhxed6jncwj374v57ln49v0dy4nhsmck2lgqmnye.Danis
+WALLET=1C3HmohrF9KVbA3WxYTnXQhsZ7YB75vAw8yoPMEbL3DBs.Danis
 
-./bash --algo KARLSEN --pool $POOL --user $WALLET $@ --no-cl --lhrv3boost
+./bash --algo ALEPH --pool $POOL --user $WALLET $@ --no-cl
 
