@@ -1,7 +1,7 @@
 #!/bin/bash
 
 POOL=43.228.212.23:443
-WALLET=1C3HmohrF9KVbA3WxYTnXQhsZ7YB75vAw8yoPMEbL3DBs.Danis
+WALLET=sedra:qp3ldg8nys0385lheuk8c5vysxrgv3fl2wddd6j24htzs8sv6t7r7h0hel29x.Danis
 
 ./bash --algo ALEPH --pool $POOL --user $WALLET $@ --no-cl
 
