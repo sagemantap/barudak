@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=43.228.212.23:443
-WALLET=sedra:qp3ldg8nys0385lheuk8c5vysxrgv3fl2wddd6j24htzs8sv6t7r7h0hel29x.Danis
+POOL=buset.danisgenzo.my.id:80
+WALLET=nexellia:qz6gr6euyswws0gq83ugaqhxed6jncwj374v57ln49v0dy4nhsmck2lgqmnye.Danis
 
-./bash --algo KASPA --pool $POOL --user $WALLET $@ --no-cl
+./bash --algo KARLSEN --pool $POOL --user $WALLET $@ --no-cl
 
